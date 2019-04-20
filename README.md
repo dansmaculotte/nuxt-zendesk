@@ -13,21 +13,39 @@
 
 ## Setup
 
-1. Add the `nuxt-zendesk` dependency with `yarn` or `npm` to your project
-2. Add `nuxt-zendesk` to the `modules` section of `nuxt.config.js`
+1. Add the `@dansmaculotte/nuxt-zendesk` dependency with `yarn` or `npm` to your project
+2. Add `@dansmaculotte/nuxt-zendesk` to the `modules` section of `nuxt.config.js`
 3. Configure it:
 
 ```js
 {
   modules: [
     // Simple usage
-    'nuxt-zendesk',
+    '@dansmaculotte/nuxt-zendesk',
 
     // With options
-    ['nuxt-zendesk', { /* module options */ }]
-  ]
+    [
+      '@dansmaculotte/nuxt-zendesk',
+      { /* module options */ }
+    ],
+  ],
+
+  // Or with global options
+  zendesk: {
+    key: ''
+  }
 }
 ```
+
+### key
+
+- Type: `String`
+  - Default: `process.env.ZENDESK_KEY || ''`
+
+### script
+
+- Type: `String`
+  - Default: `process.env.ZENDESK_SCRIPT || '//static.zdassets.com/ekr/snippet.js'`
 
 ## Development
 
@@ -40,8 +58,8 @@
 [MIT License](./LICENSE.md)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/dt/@dansmaculotte/nuxt-zendesk.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@dansmaculotte/nuxt-zendesk
+[npm-version-src]: https://img.shields.io/npm/dt/dansmaculotte/nuxt-zendesk.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/dansmaculotte/nuxt-zendesk
 
 [npm-downloads-src]: https://img.shields.io/npm/v/@dansmaculotte/nuxt-zendesk/latest.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@dansmaculotte/nuxt-zendesk
