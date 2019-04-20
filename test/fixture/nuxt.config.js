@@ -1,4 +1,7 @@
 const { resolve } = require('path')
+require('dotenv').config({
+  path: resolve(__dirname, '.env')
+})
 
 module.exports = {
   rootDir: resolve(__dirname, '..'),
@@ -8,6 +11,6 @@ module.exports = {
     resourceHints: false
   },
   modules: [
-    { handler: require('../') }
+    { handler: require('../..') }
   ]
 }

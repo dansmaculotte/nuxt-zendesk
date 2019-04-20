@@ -15,7 +15,7 @@
     "access": "public"
   },
   "scripts": {
-    "dev": "nuxt example",
+    "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "yarn lint && jest",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
@@ -29,6 +29,7 @@
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@nuxtjs/dotenv": "latest",
     "@nuxtjs/eslint-config": "latest",
     "babel-eslint": "latest",
     "babel-jest": "latest",

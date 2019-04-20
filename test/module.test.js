@@ -4,7 +4,7 @@ const { Nuxt, Builder } = require('nuxt-edge')
 const request = require('request-promise-native')
 const getPort = require('get-port')
 
-const config = require('../example/nuxt.config')
+const config = require('./fixture/nuxt.config')
 config.dev = false
 
 let nuxt, port
@@ -28,5 +28,6 @@ describe('basic', () => {
   test('render', async () => {
     const html = await get('/')
     expect(html).toContain('Works!')
+    expect(html).toContain('static.zdassets.com/ekr/snippet.js')
   })
 })
