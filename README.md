@@ -58,8 +58,8 @@
 [MIT License](./LICENSE.md)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/dt/dansmaculotte/nuxt-zendesk.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/dansmaculotte/nuxt-zendesk
+[npm-version-src]: https://img.shields.io/npm/dt/@dansmaculotte/nuxt-zendesk.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@dansmaculotte/nuxt-zendesk
 
 [npm-downloads-src]: https://img.shields.io/npm/v/@dansmaculotte/nuxt-zendesk/latest.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@dansmaculotte/nuxt-zendesk
