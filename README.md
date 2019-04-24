@@ -9,9 +9,8 @@
 
 > Nuxt.js module for Zendesk
 
-This module allows to automatically add Zendesk Web Widget to your app.
-
-[Zendesk Documentation](https://support.zendesk.com/hc/en-us/articles/203908456-Using-Web-Widget-to-embed-customer-service-in-your-website)
+This module allows to automatically add Zendesk Web Widget.
+Please refer [vue-zendesk](https://github.com/dansmaculotte/vue-zendesk) plugin for configurations.
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -36,7 +35,8 @@ This module allows to automatically add Zendesk Web Widget to your app.
 
   // Or with global options
   zendesk: {
-    key: ''
+    key: '',
+    settings: {}
   }
 }
 ```
@@ -46,10 +46,9 @@ This module allows to automatically add Zendesk Web Widget to your app.
 - Type: `String`
   - Default: `process.env.ZENDESK_KEY || ''`
 
-### script
+### settings
 
-- Type: `String`
-  - Default: `process.env.ZENDESK_SCRIPT || '//static.zdassets.com/ekr/snippet.js'`
+- Type: `Object`
 
 ## Development
 
