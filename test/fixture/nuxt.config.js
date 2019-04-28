@@ -12,5 +12,18 @@ module.exports = {
   },
   modules: [
     { handler: require('../..') }
-  ]
+  ],
+
+  zendesk: {
+    settings: {
+      webWidget: {
+        color: {
+          theme: '#78a300'
+        },
+        contactForm: {
+          attachments: false
+        }
+      }
+    }
+  }
 }

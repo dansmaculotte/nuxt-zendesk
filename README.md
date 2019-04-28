@@ -36,10 +36,18 @@ Please refer [vue-zendesk](https://github.com/dansmaculotte/vue-zendesk) plugin 
   // Or with global options
   zendesk: {
     key: '',
-    settings: {}
+    settings: {
+      webWidget: {
+        color: {
+          theme: '#78a300'
+        }
+      }
+    }
   }
 }
 ```
+
+## Options
 
 ### key
 
@@ -48,7 +56,10 @@ Please refer [vue-zendesk](https://github.com/dansmaculotte/vue-zendesk) plugin 
 
 ### settings
 
+This option comes directly from [Zendesk documentation](https://developer.zendesk.com/embeddables/docs/widget/settings).
+
 - Type: `Object`
+  - Default: `{}`
 
 ## Development
 
