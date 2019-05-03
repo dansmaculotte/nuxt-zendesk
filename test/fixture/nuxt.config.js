@@ -10,10 +10,7 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: [
-    { handler: require('../..') }
-  ],
-
+  modules: ['@@'],
   zendesk: {
     settings: {
       webWidget: {
