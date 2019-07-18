@@ -1,6 +1,6 @@
 {
   "name": "@dansmaculotte/nuxt-zendesk",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Nuxt.js module for Zendesk",
   "license": "MIT",
   "contributors": [
