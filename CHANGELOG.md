@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.3](https://github.com/dansmaculotte/nuxt-zendesk/compare/v0.3.2...v0.3.3) (2019-08-29)
+
+
+### Features
+
+* add hideOnLoad option ([133cb22](https://github.com/dansmaculotte/nuxt-zendesk/commit/133cb22))
+
 ### [0.3.2](https://github.com/dansmaculotte/nuxt-zendesk/compare/v0.3.1...v0.3.2) (2019-07-18)
 
 
