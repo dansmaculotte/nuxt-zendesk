@@ -24,7 +24,7 @@
     "lib"
   ],
   "dependencies": {
-    "@dansmaculotte/vue-zendesk": "^0.3.4"
+    "@dansmaculotte/vue-zendesk": "^0.4.0"
   },
   "devDependencies": {
     "@babel/core": "latest",
