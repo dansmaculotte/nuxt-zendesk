@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/dansmaculotte/nuxt-zendesk/compare/v0.4.0...v0.4.1) (2020-05-28)
+
+
+### Bug Fixes
+
+* update vue-zendesk ([d975af8](https://github.com/dansmaculotte/nuxt-zendesk/commit/d975af80f21f13ef89def3af1464dbdd972138d9))
+
 ## [0.4.0](https://github.com/dansmaculotte/nuxt-zendesk/compare/v0.3.5...v0.4.0) (2020-03-27)
 
 
