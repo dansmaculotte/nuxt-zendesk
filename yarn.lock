@@ -1262,9 +1262,9 @@
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
 "@dansmaculotte/vue-zendesk@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@dansmaculotte/vue-zendesk/-/vue-zendesk-0.4.1.tgz#876008d1868d1421e64fe6087e1e9e3bea2c2467"
-  integrity sha512-4+N8EvKH1zVrFXBUpHN2Vm4cdnbjw+iAgcmCYbV9LhKkZWZCajtbN+9uKF2SWxYgqIdR5G21tx4DHVC6fhSW/w==
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@dansmaculotte/vue-zendesk/-/vue-zendesk-0.4.3.tgz#69c4fa08a1dc20a3826cab429baafc1889400300"
+  integrity sha512-tpXw0VmzFKNfAG5sTb1ky95k2MxFXdoOlZO8z7Qxq1yuYPT/RJbCKEQAbXOJ1DDQrf91jeFZ/X1INTqagRcdYg==
 
 "@eslint/eslintrc@^0.2.2":
   version "0.2.2"
