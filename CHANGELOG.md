@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.3](https://github.com/dansmaculotte/nuxt-zendesk/compare/v0.4.2...v0.4.3) (2022-07-20)
+
+
+### Bug Fixes
+
+* update browserslist ([9b403e3](https://github.com/dansmaculotte/nuxt-zendesk/commit/9b403e31141bc3b93a6000bc4eab4defdbe35c2e))
+
 ### [0.4.2](https://github.com/dansmaculotte/nuxt-zendesk/compare/v0.4.1...v0.4.2) (2021-05-25)
 
 ### [0.4.1](https://github.com/dansmaculotte/nuxt-zendesk/compare/v0.4.0...v0.4.1) (2020-05-28)
