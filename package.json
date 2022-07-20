@@ -7,6 +7,10 @@
     {
       "name": "Gaël Reyrol",
       "email": "gael@dansmaculotte.fr"
+    },
+    {
+      "name": "Romain Touzé",
+      "email": "romain@dansmaculotte.fr"
     }
   ],
   "main": "lib/module.js",
@@ -24,7 +28,7 @@
     "lib"
   ],
   "dependencies": {
-    "@dansmaculotte/vue-zendesk": "^0.4.1"
+    "@dansmaculotte/vue-zendesk": "0.4.6"
   },
   "devDependencies": {
     "@babel/core": "latest",
